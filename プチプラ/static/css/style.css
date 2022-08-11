@@ -1,0 +1,50 @@
+header{
+    position: relative;
+    width: 1440px;
+	height: 150px;
+    background-image: url(../images/img_0_7.jpg);
+    background:  linear-gradient(0deg, rgba(203, 203, 203, 0.62), rgba(203, 203, 203, 0.62)), url(../images/img_0_7.jpg);
+    background-blend-mode: normal, darken;
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #400E3B;
+    backdrop-filter: blur(7px);
+/* Note: backdrop-filter has minimal browser support */
+}
+body{
+    position: relative;
+    height: 893px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(192, 50, 187, 0.3);
+}
+h1{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #7C0462;
+
+}
+footer{
+    position: relative;
+    width: 1440px;
+    height: 45px;
+    left: 0px;
+    top: 853px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: #3A112F;
+}
